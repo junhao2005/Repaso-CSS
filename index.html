@@ -19,7 +19,7 @@
 
 
 <body>
-
+    <h1>FlexBox froggy</h1>
     <table>
         <thead>
           <tr>
@@ -55,28 +55,301 @@
             <td>froggy: 5</td>
           </tr>
           <tr>
-            <td>justify-content: center; y
-                align-items: center; </td>
-            <td>Dato 3.2</td>
-            <td>Dato 3.3</td>
+            <td>justify-content: center; y align-items: center; </td>
+            <td>Se usan para centrar elementos dentro de un contenedor, ya sea en sentido horizontal o vertical, dependiendo de la dirección de flexión.</td>
+            <td>froggy: 6</td>
           </tr>
           <tr>
-            <td>froggy: 1</td>
-            <td>Dato 3.2</td>
-            <td>Dato 3.3</td>
+            <td>justify-content: space-around; y align-items: flex-end;</td>
+            <td>Ajustar los elementos y aliniearlo en la parte de abajo</td>
+            <td>froggy: 7</td>
           </tr>
           <tr>
-            <td>froggy: 1</td>
-            <td>Dato 3.2</td>
-            <td>Dato 3.3</td>
+            <td>flex-direction: row-reverse;</td>
+            <td>Coloca los elementos en la dirección contrario al texto.</td>
+            <td>froggy: 8</td>
           </tr>
           <tr>
-            <td>froggy: 1</td>
-            <td>Dato 3.2</td>
-            <td>Dato 3.3</td>
+            <td>flex-direction: column;</td>
+            <td>Coloca los elementos de arriba hacia abajo</td>
+            <td>froggy: 9</td>
+          </tr>
+          <tr>
+            <td>flex-direction: row-reverse; y justify-content: flex-end;</td>
+            <td>los elementos dentro del contenedor flex se colocan en sentido inverso horizontal (de derecha a izquierda) y se alinean en el extremo derecho del contenedor.</td>
+            <td>froggy: 10</td>
+          </tr>
+          <tr>
+            <td>flex-direction: column; y justify-content: flex-end;</td>
+            <td>Coloca los elementos de arriba a abajo y luego ajustarlo abajo</td>
+            <td>froggy: 11</td>
+          </tr>
+          <tr>
+            <td>flex-direction: column-reverse; y justify-content: space-between;</td>
+            <td>Colocan los elementos del pagina de abajo hacia arriba y distribuyen el espacio verticalmente entre ellos</td>
+            <td>froggy: 12</td>
+          </tr>
+          <tr>
+            <td>flex-direction: row-reverse; y justify-content: center; y align-items: flex-end;</td>
+            <td>Colocan los elementos en sentido inverso horizontal, los centran horizontalmente y los alinean en la parte inferior verticalmente.</td>
+            <td>froggy: 13</td>
+          </tr>
+          <tr>
+            <td>order: 1;</td>
+            <td>Para cambiar orden de elemento hacia derecha</td>
+            <td>froggy: 14</td>
+          </tr>
+          <tr>
+            <td>order: -1;</td>
+            <td>Para cambiar orden de elemento hacia izquierda</td>
+            <td>froggy: 15</td>
+          </tr>
+          <tr>
+            <td>align-self: flex-end;</td>
+            <td>Alinea un elemento específico en la parte inferior (abajo) del contenedor flex.</td>
+            <td>froggy: 16</td>
+          </tr>
+          <tr>
+            <td>order: 1; y align-self: flex-end;</td>
+            <td>Ordenan un elemento como el segundo y lo alinean en la parte inferior del contenedor flex.</td>
+            <td>froggy: 17</td>
+          </tr>
+          <tr>
+            <td>flex-wrap: wrap;</td>
+            <td>Hace que los elementos dentro del contenedor flex se ajusten automáticamente a múltiples líneas si no caben en una sola línea.</td>
+            <td>froggy: 18</td>
+          </tr>
+          <tr>
+            <td>flex-direction: column; y flex-wrap: wrap;</td>
+            <td>Coloca los elementos de arriba hacia abajo y luego lo ajusta automaticamente con wrap</td>
+            <td>froggy: 19</td>
+          </tr>
+          <tr>
+            <td>flex-direction: column; y flex-wrap: wrap;</td>
+            <td>Coloca los elementos de arriba hacia abajo y luego lo ajusta automaticamente con wrap</td>
+            <td>froggy: 20</td>
+          </tr>
+          <tr>
+            <td>align-content: flex-start;</td>
+            <td>Las líneas se posicionan en la parte superior del contenedor.</td>
+            <td>froggy: 21</td>
+          </tr>
+          <tr>
+            <td>align-content: flex-end;</td>
+            <td>Las líneas se posicionan en la parte inferior del contenedor.</td>
+            <td>froggy: 22</td>
+          </tr>
+          <tr>
+            <td>flex-direction: column-reverse; y align-content: center;</td>
+            <td>Colocan los elementos de arriba hacia abajo en orden inverso y los centran verticalmente en el contenedor.</td>
+            <td>froggy: 23</td>
+          </tr>
+          <tr>
+            <td>Nose hacerlo</td>
+            <td>Nose hacerlo</td>
+            <td>froggy: 24</td>
           </tr>
         </tbody>
       </table>
+
+
+      <h1>FlexBox defense</h1>
+      <table>
+          <thead>
+      <tr>
+        <td>justify-content: center;</td>
+        <td>Centra los elementos</td>
+        <td>defense: 1</td>
+      </tr>
+      <tr>
+        <td>justify-content: flex-end; y justify-content: center; y justify-content: flex-end;</td>
+        <td>Con el flex-end ha movido el elemento a derecha de todo y con center para centrar el elemento</td>
+        <td>defense: 2</td>
+      </tr>
+      <tr>
+        <td>justify-content: center; y justify-content: space-between;</td>
+        <td>space-between sirve colocar los elementos en los extremos opuestos del contenedor, con un espacio uniforme entre ellos.</td>
+        <td>defense: 3</td>
+      </tr>
+      <tr>
+        <td>align-items: flex-end; y justify-content: center;</td>
+        <td>Alinean los elementos en la parte inferior y los centran horizontalmente dentro de su contenedor flexible.</td>
+        <td>defense: 4</td>
+      </tr>
+      <tr>
+        <td>justify-content: space-around; y align-items: flex-end; y justify-content: center; y justify-content: center;</td>
+        <td>Alinearían los elementos en la parte inferior del contenedor y los distribuirían uniformemente a lo largo del eje principal, con espacio igual entre ellos, mientras los centra horizontalmente.</td>
+        <td>defense: 5</td>
+      </tr>
+      <tr>
+        <td>justify-content: space-between; y align-items: center;</td>
+        <td>Distribuyen los elementos uniformemente a lo largo del eje principal con el primer elemento al inicio y el último al final, mientras los centra verticalmente en el contenedor.</td>
+        <td>defense: 6</td>
+      </tr>
+      <tr>
+        <td>flex-direction: column;</td>
+        <td>Organiza los elementos verticalmente dentro de un contenedor flexible en lugar de horizontalmente.</td>
+        <td>defense: 7</td>
+      </tr>
+      <tr>
+        <td>flex-direction: column; y align-items: center; y flex-direction: column; </td>
+        <td>Poner los elementos verticalmente y centralos</td>
+        <td>defense: 8</td>
+      </tr>
+      <tr>
+        <td>justify-content: space-around; y flex-direction: row-reverse; y flex-direction: row-reverse; y align-items: center; y justify-content: space-around;</td>
+        <td>Estos comandos crearían un diseño donde los elementos se organizan en una fila de derecha a izquierda, se alinean verticalmente en el centro del contenedor y se distribuyen uniformemente con espacios iguales alrededor de cada elemento.</td>
+        <td>defense: 9</td>
+      </tr>
+      <tr>
+        <td>justify-content: space-around; order: 1; y justify-content: space-around; order: -1;</td>
+        <td>order: 1;: Mueve el elemento al final del orden de visualización. y order: -1;: Revierte el orden de los elementos, colocando el elemento en la posición inicial.</td>
+        <td>defense: 10</td>
+      </tr>
+      <tr>
+        <td>justify-content: space-between; y align-self: flex-end; y align-self: flex-end;</td>
+        <td>Colocan todos los elementos en el extremo inferior del contenedor a lo largo del eje transversal, mientras distribuyen uniformemente el espacio entre ellos a lo largo del eje principal.</td>
+        <td>defense: 11</td>
+      </tr>
+      <tr>
+        <td>justify-content: space-between; 
+          align-items: center;
+          order: 1; 
+          align-self: center;
+          align-self: center;
+          align-self: flex-end</td>
+        <td>justify-content: space-between;: Distribuye uniformemente los elementos a lo largo del eje principal, sin espacio extra al principio o al final. align-self: flex-end;: Alinea verticalmente otro elemento específico en el extremo inferior del contenedor.</td>
+        <td>defense: 12</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <h1>FlexBox adventure</h1>
+  <table>
+      <thead>
+  <tr>
+    <td>justify-content: center;</td>
+    <td>Centrar el personaje</td>
+    <td>adventura: 1</td>
+  </tr>
+  <tr>
+    <td>justify-content: flex-end;</td>
+    <td>Ajustar a la derecha al personaje</td>
+    <td>adventura: 2</td>
+  </tr>
+  <tr>
+    <td>justify-content: space-between;</td>
+    <td>Colocar los personajes al principio y al final de la mapa.</td>
+    <td>adventura: 3</td>
+  </tr>
+  <tr>
+    <td>justify-content: space-around;</td>
+    <td>Deja espacio igual alrededor de cada elemento dentro del contenedor flex.</td>
+    <td>adventura: 4</td>
+  </tr>
+  <tr>
+    <td>justify-content: space-evenly;</td>
+    <td>Asegura que haya espacio uniforme entre cada elemento dentro del contenedor flex, incluyendo espacio adicional al principio y al final.</td>
+    <td>adventura: 5</td>
+  </tr>
+  <tr>
+    <td>align-items: center;</td>
+    <td>Centrar personajes verticalmente</td>
+    <td>adventura: 6</td>
+  </tr>
+  <tr>
+    <td>align-items: flex-end;</td>
+    <td>Ajustar los personajes en la parte inferior de la mapa</td>
+    <td>adventura: 7</td>
+  </tr>
+  <tr>
+    <td>align-items: center; y justify-content: center;</td>
+    <td>Primero centar verticalmente y luego horizontalmente.</td>
+    <td>adventura: 8</td>
+  </tr>
+  <tr>
+    <td>align-items: flex-end; y justify-content: space-between;</td>
+    <td>Primero ajustar los personajes en la parte inferior de la mapa y luego coloca a los personajes princio, medio y final.</td>
+    <td>adventura: 9</td>
+  </tr>
+  <tr>
+    <td> flex-direction: column;</td>
+    <td>Se colocan verticalmente, como una columna.</td>
+    <td>adventura: 10</td>
+  </tr>
+  <tr>
+    <td>flex-direction: row-reverse;</td>
+    <td>Muestra los personajes en orden inverso horizontalmente, de derecha a izquierda.</td>
+    <td>adventura: 11</td>
+  </tr>
+  <tr>
+    <td>flex-direction: column; y justify-content: flex-end;</td>
+    <td>Se pone verticalmente a los personajes y luego se colocan en la parte inferiror de la mapa</td>
+    <td>adventura: 12</td>
+  </tr>
+  <tr>
+    <td>flex-direction: row-reverse; y justify-content: center; y align-items: center;</td>
+    <td>Se cambia el orden se comienza desde derecha, se centra verticalmente y se centra en el medio de la mapa</td>
+    <td>adventura: 13</td>
+  </tr>
+  <tr>
+    <td>order: 2;</td>
+    <td>Cambia posicion con la segunda personaje</td>
+    <td>adventura: 14</td>
+  </tr>
+  <tr>
+    <td>align-self: center;</td>
+    <td>Centrar verticalmente al personaje</td>
+    <td>adventura: 15</td>
+  </tr>
+  <tr>
+    <td>align-self: flex-end; y order: 1;</td>
+    <td>Se ajusta parte inferior de la mapa y se cambia posicion con el primer personaje</td>
+    <td>adventura: 16</td>
+  </tr>
+  <tr>
+    <td>flex-direction: column-reverse;</td>
+    <td>Los personajes se coloca en verticalmente y reversa, luego se colocan superio de la mapa y se centra horizontalmente</td>
+    <td>adventura: 17</td>
+  </tr>
+  <tr>
+    <td>align-self: center; y order: 2;</td>
+    <td>Se centra verticalmente y se cambia posicion con el segundo</td>
+    <td>adventura: 18</td>
+  </tr>
+  <tr>
+    <td>flex-wrap: wrap;</td>
+    <td>Hace que los elementos dentro del contenedor flex puedan envolverse en múltiples líneas si no caben en una sola línea.</td>
+    <td>adventura: 19</td>
+  </tr>
+  <tr>
+    <td>align-content: center;</td>
+    <td>Centra todas las líneas de elementos dentro del contenedor flex verticalmente.</td>
+    <td>adventura: 20</td>
+  </tr>
+  <tr>
+    <td>align-content: flex-end;</td>
+    <td>Colocan a los elementos a la parte inferior de la mapa y se centra horizontalmente</td>
+    <td>adventura: 21</td>
+  </tr>
+  <tr>
+    <td>flex-direction: column-reverse; y justify-content: space-around; y align-items: flex-end;</td>
+    <td>Se pone en orden inverso verticalmente, de abajo hacia arriba y se colocan arriba medio y abajo y finalmente se mueven todo a la derecha</td>
+    <td>adventura: 22</td>
+  </tr>
+  <tr>
+    <td>flex-direction: column-reverse; y justify-content: center; y flex-wrap: wrap-reverse; y align-content: center;</td>
+    <td>colocan los elementos del contenedor flex en columnas de abajo hacia arriba, centrándolos tanto vertical como horizontalmente, y luego los envuelven en múltiples líneas de arriba hacia abajo dentro del contenedor.</td>
+    <td>adventura: 23</td>
+  </tr>
+  <tr>
+    <td>align-self: center; y order: 3;</td>
+    <td>Se centra verticalmente y se cambia de posicion con el tercer personaje</td>
+    <td>adventura: 24</td>
+  </tr>
+</tbody>
+</table>
     
 </body>
 </html>
